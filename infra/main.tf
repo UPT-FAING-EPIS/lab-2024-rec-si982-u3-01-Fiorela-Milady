@@ -10,7 +10,7 @@ terraform {
 
 variable "suscription_id" {
     type = string
-    description = "Azure subscription id"
+    description = "952a5070-5468-442d-86f8-d4265effc04a"
 }
 
 variable "sqladmin_username" {
