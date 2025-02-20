@@ -1,3 +1,4 @@
+//Se agregó el id de azure
 terraform {
   required_providers {
     azurerm = {
