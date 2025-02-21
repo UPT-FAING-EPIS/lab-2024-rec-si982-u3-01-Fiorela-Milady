@@ -670,10 +670,9 @@ swa deploy ./publish/wwwroot -n upt-swa-XXX --env production
 >Donde: XXX, id del azure static webapp
 
 15. En el Terminal, se visualizara el link de la Webapp Estatica, hacer click en el para verificar los resultados.
+    
+![Captura](https://github.com/user-attachments/assets/c9098bb8-6ee6-4d76-97e5-3691ec48a1ec)
 
-![image](https://github.com/user-attachments/assets/463ed443-3843-44a1-95bf-c7a9aa999666)
-
-![Uploading image.png…]()
 
 ## ACTIVIDADES ENCARGADAS
 
