@@ -150,6 +150,7 @@ resource "azurerm_mssql_database" "sqldb" {
 > SQL_USER: Usuario administrador de la base de datos, ejm: adminsql
 > 
 > SQL_PASS: Password del usuario administrador de la base de datos, ejm: upt.2025
+![image](https://github.com/user-attachments/assets/4a3c195a-9837-4842-9397-3b2063f9ab9d)
 
 5. En el Visual Studio Code, crear la carpeta .github/workflows en la raiz del proyecto, seguidamente crear el archivo deploy.yml con el siguiente contenido
 <details><summary>Click to expand: deploy.yml</summary>
@@ -315,9 +316,12 @@ jobs:
             terraform apply -var="suscription_id=${{ secrets.SUSCRIPTION_ID }}" -var="sqladmin_username=${{ secrets.SQL_USER }}" -var="sqladmin_password=${{ secrets.SQL_PASS }}" -auto-approve main.tfplan
 ```
 </details>
+![image](https://github.com/user-attachments/assets/cf88a490-b9d5-43b2-874b-88ef78103ff6)
 
 6. En el Visual Studio Code, guardar los cambios y subir los cambios al repositorio. Revisar los logs de la ejeuciòn de automatizaciòn y anotar el numero de identificaciòn de Grupo de Recursos y Aplicación Web creados
 ```Bash
+![image](https://github.com/user-attachments/assets/fcc31678-c95b-4761-8cfd-48e95f410676)
+
 azurerm_linux_web_app.webapp: Creation complete after 53s [id=/subscriptions/1f57de72-50fd-4271-8ab9-3fc129f02bc0/resourceGroups/upt-arg-XXX/providers/Microsoft.Web/sites/upt-awa-XXX]
 ```
 
