@@ -16,12 +16,12 @@ variable "suscription_id" {
 
 variable "sqladmin_username" {
     type = string
-    description = "Administrator username for server"
+    description = "fiorelatica"
 }
 
 variable "sqladmin_password" {
     type = string
-    description = "Administrator password for server"
+    description = "ffIIq@@40"
 }
 
 provider "azurerm" {
