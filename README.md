@@ -673,6 +673,7 @@ swa deploy ./publish/wwwroot -n upt-swa-XXX --env production
 
 ![image](https://github.com/user-attachments/assets/463ed443-3843-44a1-95bf-c7a9aa999666)
 
+![Uploading image.png…]()
 
 ## ACTIVIDADES ENCARGADAS
 
